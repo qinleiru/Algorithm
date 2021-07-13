@@ -20,7 +20,7 @@ public class MainTest {
          */
         MoveDuplicates moveDuplicates=new MoveDuplicates();
         int nums[]=new int[]{0,1,2,2,3,0,4,2};
-        int value=moveDuplicates.removeElement(nums,2);
+        int value=moveDuplicates.removeElementV1(nums,2);
         System.out.println(value);
         for(int num:nums){
             System.out.print(num+" ");

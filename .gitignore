@@ -4,3 +4,4 @@ bin
 .settings
 .idea
 .classpath
+.DS_Store
