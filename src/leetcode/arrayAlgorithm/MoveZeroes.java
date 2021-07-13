@@ -1,6 +1,6 @@
-package leetcode;
+package leetcode.arrayAlgorithm;
 
-public class MoveZeroesResolution {
+public class MoveZeroes {
     /**
      * 此方法改变了数组的相对的位置
      * @param nums
