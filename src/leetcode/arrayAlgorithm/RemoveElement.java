@@ -31,7 +31,7 @@ public class RemoveElement {
      * @return
      */
     public  int solution2(int [] nums,int val){
-        int left = 0, right = nums.size();
+        int left = 0, right = nums.length;
         while (left < right) {
             if (nums[left] == val) {
                 nums[left] = nums[right - 1];
