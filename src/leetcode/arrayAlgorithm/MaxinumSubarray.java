@@ -10,9 +10,9 @@ public class MaxinumSubarray {
      * @return
      */
     public int solution1(int[] nums){
-        int pre=0,maxAns = nums[0];;
-        for (int x:nums){
-            pre=Math.max(pre + x,pre);
+        int pre = 0, maxAns = nums[0];
+        for (int x : nums) {
+            pre = Math.max(pre + x, x);
             maxAns = Math.max(maxAns, pre);
         }
         return maxAns;
